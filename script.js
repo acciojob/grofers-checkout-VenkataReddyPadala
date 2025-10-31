@@ -10,6 +10,7 @@ const getSum = () => {
   });
   const tr = document.createElement("tr");
   const td = document.createElement("td");
+	 td.id = "ans";   
   td.colSpan = 2;
   td.textContent = total;
   tr.appendChild(td);
